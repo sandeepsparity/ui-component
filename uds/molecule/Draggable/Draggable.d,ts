@@ -1,0 +1,5 @@
+import React from 'react';
+import { DraggableProps } from './Draggable.types';
+import '../../tailwind.css';
+declare const Draggable: <T>(props: DraggableProps<T>) => React.JSX.Element;
+export default Draggable;
